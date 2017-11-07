@@ -1,5 +1,7 @@
 PODS:
-  - TDServiceAPI (0.1.0)
+  - Alamofire (4.5.0)
+  - TDServiceAPI (0.1.0):
+    - Alamofire (= 4.5.0)
 
 DEPENDENCIES:
   - TDServiceAPI (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TDServiceAPI: 0c00764f98e9449f7ec58c8749076d77fabd4718
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  TDServiceAPI: d36de40e0a7d2c67d212c2a055bfc3101d08e774
 
 PODFILE CHECKSUM: edcb268ab450231cb1043426e9b8cc39a87be651
 

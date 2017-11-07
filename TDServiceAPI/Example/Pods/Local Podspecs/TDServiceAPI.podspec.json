@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TDServiceAPI/Classes/**/*"
+  "source_files": "TDServiceAPI/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "4.5.0"
+    ]
+  }
 }
