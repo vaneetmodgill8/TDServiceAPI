@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0429B6A1412D94A20338733F8B499EB0 /* TDServiceAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A66271D063DFFD8FA8181F0B516E79 /* TDServiceAPI-dummy.m */; };
+		231A73B2B6D8059FEE6718AEEDDDA118 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */; };
+		32EEB32EFE7AA3F1BC93C25E7FFA913A /* Pods-TDServiceAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F427A7E61C729854042AB17E5BB8A6C7 /* Pods-TDServiceAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727FEE1341E59437C789B1DE68729CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		784643A769E82058F3C7C3EEBAB7A0B1 /* Pods-TDServiceAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D09A7C9453D360365E76A78F4FF2E /* Pods-TDServiceAPI_Example-dummy.m */; };
+		A74B42C7DD90B7F92A2383E296A70782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B563EE97C94547982E4B528E3365599A /* TDServiceAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD5915221A5D8CA1A7CF676CD72B025 /* TDServiceAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2C58414BBA7BE8AB21827555075D36 /* Pods-TDServiceAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C323B4380821E71993AAC35481B57A /* Pods-TDServiceAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D5DA52CAC2AB2DB96D940EBFB37B73 /* Pods-TDServiceAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26419436D636C4A3AD5164F220F8301D /* Pods-TDServiceAPI_Tests-dummy.m */; };
+		DBAA6A7EC6F1BD3606A3EB79FE437F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15AB8D542DC17CD4828410A10F2730CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF582AD125494E8B7B68DA67BBB0781;
+			remoteInfo = TDServiceAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06255959ECE39D9AB3626694167DC93A /* Pods-TDServiceAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		12078F3BB618A8578A5B3F91F9F92063 /* Pods-TDServiceAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		157334A99BF8FBAED3562655760EB7BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160EC64C909F91E33E06C8BAA5A37D47 /* Pods-TDServiceAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Tests-resources.sh"; sourceTree = "<group>"; };
+		1920BD8695CE94C85A22607556BD9BB2 /* Pods-TDServiceAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDServiceAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26419436D636C4A3AD5164F220F8301D /* Pods-TDServiceAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDServiceAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		2FC157E198DE35F05A1F0EE08B4E0266 /* Pods-TDServiceAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDServiceAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		303EF200B490F2F59724C2CD3A7CA3FF /* Pods-TDServiceAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDServiceAPI_Example.modulemap"; sourceTree = "<group>"; };
+		410D09A7C9453D360365E76A78F4FF2E /* Pods-TDServiceAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDServiceAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		498F5BDE57F12C878DE2BF8A107B8DFE /* Pods-TDServiceAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDServiceAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		4ED0B80E4682314AF87503EB3A01A69F /* Pods-TDServiceAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDServiceAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		5C8C8A9908BF8940EE222F04F2EA809B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE72368D4816E2A25C130B4B05AB590 /* TDServiceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDServiceAPI-prefix.pch"; sourceTree = "<group>"; };
+		6012264DB8D3E94CD4DE2EE94200B188 /* TDServiceAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDServiceAPI.modulemap; sourceTree = "<group>"; };
+		62ACF7C9C5C1E72A9CFA99AC2370C824 /* TDServiceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDServiceAPI.framework; path = TDServiceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A2B528DDF1567BAD4B787327782DEE2 /* Pods-TDServiceAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Example-resources.sh"; sourceTree = "<group>"; };
+		73C323B4380821E71993AAC35481B57A /* Pods-TDServiceAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDServiceAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		909D8D05EE2BD1502F37BF39C1A1DDE1 /* Pods_TDServiceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDServiceAPI_Example.framework; path = "Pods-TDServiceAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99715AAE0EA3BA79651B159F50F817FB /* Pods-TDServiceAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D1FEA91D71BA977B1F57B03E1DE3CFF /* Pods_TDServiceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDServiceAPI_Tests.framework; path = "Pods-TDServiceAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EEEEA0B743AAA2F568FD699ED44E71 /* Pods-TDServiceAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A830DC8751A4977F1BA3A4F7C15DF0C6 /* Pods-TDServiceAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDServiceAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACD09D03D34BD91191DD392C75FF720D /* Pods-TDServiceAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0A439FB20B4E3BBBB4D88E28CAF75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD5915221A5D8CA1A7CF676CD72B025 /* TDServiceAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDServiceAPI-umbrella.h"; sourceTree = "<group>"; };
+		D0826DB0B5307332ED5892BD512A5551 /* TDServiceAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDServiceAPI.xcconfig; sourceTree = "<group>"; };
+		DF91B90B5713314DF76F510AD4ABBA9B /* Pods-TDServiceAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F1A66271D063DFFD8FA8181F0B516E79 /* TDServiceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDServiceAPI-dummy.m"; sourceTree = "<group>"; };
+		F427A7E61C729854042AB17E5BB8A6C7 /* Pods-TDServiceAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDServiceAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28201311D1F0688B853F7DD69DA02C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74B42C7DD90B7F92A2383E296A70782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC6F5C17D0D89117B83BE6CBF0E8D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAA6A7EC6F1BD3606A3EB79FE437F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FAB29FC63B19DB40BDEE918A97826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FEE1341E59437C789B1DE68729CD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380CFB65A20A097473C0A3EB5E15F5B8 /* Pods-TDServiceAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A439FB20B4E3BBBB4D88E28CAF75C /* Info.plist */,
+				498F5BDE57F12C878DE2BF8A107B8DFE /* Pods-TDServiceAPI_Tests.modulemap */,
+				A830DC8751A4977F1BA3A4F7C15DF0C6 /* Pods-TDServiceAPI_Tests-acknowledgements.markdown */,
+				2FC157E198DE35F05A1F0EE08B4E0266 /* Pods-TDServiceAPI_Tests-acknowledgements.plist */,
+				26419436D636C4A3AD5164F220F8301D /* Pods-TDServiceAPI_Tests-dummy.m */,
+				99715AAE0EA3BA79651B159F50F817FB /* Pods-TDServiceAPI_Tests-frameworks.sh */,
+				160EC64C909F91E33E06C8BAA5A37D47 /* Pods-TDServiceAPI_Tests-resources.sh */,
+				F427A7E61C729854042AB17E5BB8A6C7 /* Pods-TDServiceAPI_Tests-umbrella.h */,
+				12078F3BB618A8578A5B3F91F9F92063 /* Pods-TDServiceAPI_Tests.debug.xcconfig */,
+				A5EEEEA0B743AAA2F568FD699ED44E71 /* Pods-TDServiceAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-TDServiceAPI_Tests";
+			path = "Target Support Files/Pods-TDServiceAPI_Tests";
+			sourceTree = "<group>";
+		};
+		49E7E9549ED1F45A2F99D74820FFECC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909D8D05EE2BD1502F37BF39C1A1DDE1 /* Pods_TDServiceAPI_Example.framework */,
+				9D1FEA91D71BA977B1F57B03E1DE3CFF /* Pods_TDServiceAPI_Tests.framework */,
+				62ACF7C9C5C1E72A9CFA99AC2370C824 /* TDServiceAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543E837B105E2041B3B3DFA4C8A660DF /* TDServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8BB63E41C5F20E07E3626D6180E38235 /* Support Files */,
+				A8D2BDC2CE2779700748C33FF364381C /* TDServiceAPI */,
+			);
+			name = TDServiceAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		709F905CFCE6A5E1397ED56FB4149B0A /* Pods-TDServiceAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				157334A99BF8FBAED3562655760EB7BA /* Info.plist */,
+				303EF200B490F2F59724C2CD3A7CA3FF /* Pods-TDServiceAPI_Example.modulemap */,
+				1920BD8695CE94C85A22607556BD9BB2 /* Pods-TDServiceAPI_Example-acknowledgements.markdown */,
+				4ED0B80E4682314AF87503EB3A01A69F /* Pods-TDServiceAPI_Example-acknowledgements.plist */,
+				410D09A7C9453D360365E76A78F4FF2E /* Pods-TDServiceAPI_Example-dummy.m */,
+				06255959ECE39D9AB3626694167DC93A /* Pods-TDServiceAPI_Example-frameworks.sh */,
+				6A2B528DDF1567BAD4B787327782DEE2 /* Pods-TDServiceAPI_Example-resources.sh */,
+				73C323B4380821E71993AAC35481B57A /* Pods-TDServiceAPI_Example-umbrella.h */,
+				ACD09D03D34BD91191DD392C75FF720D /* Pods-TDServiceAPI_Example.debug.xcconfig */,
+				DF91B90B5713314DF76F510AD4ABBA9B /* Pods-TDServiceAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-TDServiceAPI_Example";
+			path = "Target Support Files/Pods-TDServiceAPI_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F26798989DF322377A0EA5BD4C338573 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				49E7E9549ED1F45A2F99D74820FFECC6 /* Products */,
+				ED0312252FD254766BAFCD8DBCC37343 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB63E41C5F20E07E3626D6180E38235 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8C8A9908BF8940EE222F04F2EA809B /* Info.plist */,
+				6012264DB8D3E94CD4DE2EE94200B188 /* TDServiceAPI.modulemap */,
+				D0826DB0B5307332ED5892BD512A5551 /* TDServiceAPI.xcconfig */,
+				F1A66271D063DFFD8FA8181F0B516E79 /* TDServiceAPI-dummy.m */,
+				5FE72368D4816E2A25C130B4B05AB590 /* TDServiceAPI-prefix.pch */,
+				CBD5915221A5D8CA1A7CF676CD72B025 /* TDServiceAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TDServiceAPI";
+			sourceTree = "<group>";
+		};
+		9E124B57ABD5C1719E80BA02F2668E53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8D2BDC2CE2779700748C33FF364381C /* TDServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9E124B57ABD5C1719E80BA02F2668E53 /* Classes */,
+			);
+			name = TDServiceAPI;
+			path = TDServiceAPI;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED0312252FD254766BAFCD8DBCC37343 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				709F905CFCE6A5E1397ED56FB4149B0A /* Pods-TDServiceAPI_Example */,
+				380CFB65A20A097473C0A3EB5E15F5B8 /* Pods-TDServiceAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F26798989DF322377A0EA5BD4C338573 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543E837B105E2041B3B3DFA4C8A660DF /* TDServiceAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C904789F8F28FB92AD87CDE3EEF7AEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B563EE97C94547982E4B528E3365599A /* TDServiceAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CFCD8E081CFBF3F144EBE420A65CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EEB32EFE7AA3F1BC93C25E7FFA913A /* Pods-TDServiceAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9242CE6E53A59FE83511318757A210DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2C58414BBA7BE8AB21827555075D36 /* Pods-TDServiceAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EF582AD125494E8B7B68DA67BBB0781 /* TDServiceAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174AA1F14EFE1F1D67DAC79A0BB68A5C /* Build configuration list for PBXNativeTarget "TDServiceAPI" */;
+			buildPhases = (
+				C190D9EC7DBA9A650678958EAED19755 /* Sources */,
+				28201311D1F0688B853F7DD69DA02C54 /* Frameworks */,
+				2C904789F8F28FB92AD87CDE3EEF7AEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDServiceAPI;
+			productName = TDServiceAPI;
+			productReference = 62ACF7C9C5C1E72A9CFA99AC2370C824 /* TDServiceAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		983215ABB024E97FB7CB007D195BA75D /* Pods-TDServiceAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B19BFAD9E631AB6D6E4468E8941634B /* Build configuration list for PBXNativeTarget "Pods-TDServiceAPI_Example" */;
+			buildPhases = (
+				ED51F8F9C44B02C0BC24C5832B3F4CE6 /* Sources */,
+				8EC6F5C17D0D89117B83BE6CBF0E8D6F /* Frameworks */,
+				9242CE6E53A59FE83511318757A210DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95D8F3E12E0DDA9D80FD3A4B96D09EE /* PBXTargetDependency */,
+			);
+			name = "Pods-TDServiceAPI_Example";
+			productName = "Pods-TDServiceAPI_Example";
+			productReference = 909D8D05EE2BD1502F37BF39C1A1DDE1 /* Pods_TDServiceAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD4B2CD9813CEA3F26D41D394386588B /* Pods-TDServiceAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBFA5F79F9820B0931DD3C0C2A10EDC /* Build configuration list for PBXNativeTarget "Pods-TDServiceAPI_Tests" */;
+			buildPhases = (
+				E0721F00CB857FD106C5D8E887EF577C /* Sources */,
+				AA9FAB29FC63B19DB40BDEE918A97826 /* Frameworks */,
+				38CFCD8E081CFBF3F144EBE420A65CEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TDServiceAPI_Tests";
+			productName = "Pods-TDServiceAPI_Tests";
+			productReference = 9D1FEA91D71BA977B1F57B03E1DE3CFF /* Pods_TDServiceAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49E7E9549ED1F45A2F99D74820FFECC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983215ABB024E97FB7CB007D195BA75D /* Pods-TDServiceAPI_Example */,
+				FD4B2CD9813CEA3F26D41D394386588B /* Pods-TDServiceAPI_Tests */,
+				6EF582AD125494E8B7B68DA67BBB0781 /* TDServiceAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C190D9EC7DBA9A650678958EAED19755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A73B2B6D8059FEE6718AEEDDDA118 /* ReplaceMe.swift in Sources */,
+				0429B6A1412D94A20338733F8B499EB0 /* TDServiceAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0721F00CB857FD106C5D8E887EF577C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5DA52CAC2AB2DB96D940EBFB37B73 /* Pods-TDServiceAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED51F8F9C44B02C0BC24C5832B3F4CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784643A769E82058F3C7C3EEBAB7A0B1 /* Pods-TDServiceAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95D8F3E12E0DDA9D80FD3A4B96D09EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDServiceAPI;
+			target = 6EF582AD125494E8B7B68DA67BBB0781 /* TDServiceAPI */;
+			targetProxy = 15AB8D542DC17CD4828410A10F2730CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202D7C8EC64F3293A1D987A5714A9F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0826DB0B5307332ED5892BD512A5551 /* TDServiceAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDServiceAPI/TDServiceAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDServiceAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDServiceAPI/TDServiceAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TDServiceAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63241F2EA8B505B0F2E0B24EDBD47914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0826DB0B5307332ED5892BD512A5551 /* TDServiceAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDServiceAPI/TDServiceAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDServiceAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDServiceAPI/TDServiceAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TDServiceAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A38FDDBB04042C9D16AA0BC50AB4607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EEEEA0B743AAA2F568FD699ED44E71 /* Pods-TDServiceAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TDServiceAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDServiceAPI_Tests/Pods-TDServiceAPI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TDServiceAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2A8907F9425B6BC2675B130C8F6664D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12078F3BB618A8578A5B3F91F9F92063 /* Pods-TDServiceAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TDServiceAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDServiceAPI_Tests/Pods-TDServiceAPI_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TDServiceAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2D1122357D4D97EEF44C0B413DECCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD09D03D34BD91191DD392C75FF720D /* Pods-TDServiceAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TDServiceAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDServiceAPI_Example/Pods-TDServiceAPI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TDServiceAPI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC653136B75EBA5D4CC43331BE67769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF91B90B5713314DF76F510AD4ABBA9B /* Pods-TDServiceAPI_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TDServiceAPI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDServiceAPI_Example/Pods-TDServiceAPI_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TDServiceAPI_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B19BFAD9E631AB6D6E4468E8941634B /* Build configuration list for PBXNativeTarget "Pods-TDServiceAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D1122357D4D97EEF44C0B413DECCF6 /* Debug */,
+				FC653136B75EBA5D4CC43331BE67769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174AA1F14EFE1F1D67DAC79A0BB68A5C /* Build configuration list for PBXNativeTarget "TDServiceAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202D7C8EC64F3293A1D987A5714A9F8A /* Debug */,
+				63241F2EA8B505B0F2E0B24EDBD47914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBFA5F79F9820B0931DD3C0C2A10EDC /* Build configuration list for PBXNativeTarget "Pods-TDServiceAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A8907F9425B6BC2675B130C8F6664D /* Debug */,
+				9A38FDDBB04042C9D16AA0BC50AB4607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module TDServiceAPI {
+  umbrella header "TDServiceAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDServiceAPI_Example' do
+  pod 'TDServiceAPI', :path => '../'
+
+  target 'TDServiceAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
