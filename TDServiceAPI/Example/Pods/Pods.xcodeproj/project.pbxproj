@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0429B6A1412D94A20338733F8B499EB0 /* TDServiceAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A66271D063DFFD8FA8181F0B516E79 /* TDServiceAPI-dummy.m */; };
-		231A73B2B6D8059FEE6718AEEDDDA118 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */; };
 		32EEB32EFE7AA3F1BC93C25E7FFA913A /* Pods-TDServiceAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F427A7E61C729854042AB17E5BB8A6C7 /* Pods-TDServiceAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		727FEE1341E59437C789B1DE68729CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		784643A769E82058F3C7C3EEBAB7A0B1 /* Pods-TDServiceAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D09A7C9453D360365E76A78F4FF2E /* Pods-TDServiceAPI_Example-dummy.m */; };
 		A74B42C7DD90B7F92A2383E296A70782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B563EE97C94547982E4B528E3365599A /* TDServiceAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD5915221A5D8CA1A7CF676CD72B025 /* TDServiceAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD2C58414BBA7BE8AB21827555075D36 /* Pods-TDServiceAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C323B4380821E71993AAC35481B57A /* Pods-TDServiceAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC702F31FB1B4B4004AFB84 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC702F21FB1B4B4004AFB84 /* WebService.swift */; };
+		CAC702F51FB1B79D004AFB84 /* WebServiceAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC702F41FB1B79D004AFB84 /* WebServiceAble.swift */; };
+		CAC702F71FB1BB19004AFB84 /* WSApiAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC702F61FB1BB19004AFB84 /* WSApiAlamofire.swift */; };
 		D2D5DA52CAC2AB2DB96D940EBFB37B73 /* Pods-TDServiceAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26419436D636C4A3AD5164F220F8301D /* Pods-TDServiceAPI_Tests-dummy.m */; };
 		DBAA6A7EC6F1BD3606A3EB79FE437F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,26 +39,28 @@
 		1920BD8695CE94C85A22607556BD9BB2 /* Pods-TDServiceAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDServiceAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26419436D636C4A3AD5164F220F8301D /* Pods-TDServiceAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDServiceAPI_Tests-dummy.m"; sourceTree = "<group>"; };
 		2FC157E198DE35F05A1F0EE08B4E0266 /* Pods-TDServiceAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDServiceAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		303EF200B490F2F59724C2CD3A7CA3FF /* Pods-TDServiceAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDServiceAPI_Example.modulemap"; sourceTree = "<group>"; };
+		303EF200B490F2F59724C2CD3A7CA3FF /* Pods-TDServiceAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TDServiceAPI_Example.modulemap"; sourceTree = "<group>"; };
 		410D09A7C9453D360365E76A78F4FF2E /* Pods-TDServiceAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDServiceAPI_Example-dummy.m"; sourceTree = "<group>"; };
-		498F5BDE57F12C878DE2BF8A107B8DFE /* Pods-TDServiceAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDServiceAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		498F5BDE57F12C878DE2BF8A107B8DFE /* Pods-TDServiceAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TDServiceAPI_Tests.modulemap"; sourceTree = "<group>"; };
 		4ED0B80E4682314AF87503EB3A01A69F /* Pods-TDServiceAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDServiceAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		5C8C8A9908BF8940EE222F04F2EA809B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE72368D4816E2A25C130B4B05AB590 /* TDServiceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDServiceAPI-prefix.pch"; sourceTree = "<group>"; };
-		6012264DB8D3E94CD4DE2EE94200B188 /* TDServiceAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDServiceAPI.modulemap; sourceTree = "<group>"; };
-		62ACF7C9C5C1E72A9CFA99AC2370C824 /* TDServiceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDServiceAPI.framework; path = TDServiceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6012264DB8D3E94CD4DE2EE94200B188 /* TDServiceAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TDServiceAPI.modulemap; sourceTree = "<group>"; };
+		62ACF7C9C5C1E72A9CFA99AC2370C824 /* TDServiceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDServiceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A2B528DDF1567BAD4B787327782DEE2 /* Pods-TDServiceAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Example-resources.sh"; sourceTree = "<group>"; };
 		73C323B4380821E71993AAC35481B57A /* Pods-TDServiceAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDServiceAPI_Example-umbrella.h"; sourceTree = "<group>"; };
-		909D8D05EE2BD1502F37BF39C1A1DDE1 /* Pods_TDServiceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDServiceAPI_Example.framework; path = "Pods-TDServiceAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		909D8D05EE2BD1502F37BF39C1A1DDE1 /* Pods_TDServiceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDServiceAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99715AAE0EA3BA79651B159F50F817FB /* Pods-TDServiceAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDServiceAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D1FEA91D71BA977B1F57B03E1DE3CFF /* Pods_TDServiceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDServiceAPI_Tests.framework; path = "Pods-TDServiceAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1FEA91D71BA977B1F57B03E1DE3CFF /* Pods_TDServiceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDServiceAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EEEEA0B743AAA2F568FD699ED44E71 /* Pods-TDServiceAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A830DC8751A4977F1BA3A4F7C15DF0C6 /* Pods-TDServiceAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDServiceAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ACD09D03D34BD91191DD392C75FF720D /* Pods-TDServiceAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE0A439FB20B4E3BBBB4D88E28CAF75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC702F21FB1B4B4004AFB84 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebService.swift; path = ../../../../../../../Desktop/WebService.swift; sourceTree = "<group>"; };
+		CAC702F41FB1B79D004AFB84 /* WebServiceAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceAble.swift; sourceTree = "<group>"; };
+		CAC702F61FB1BB19004AFB84 /* WSApiAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSApiAlamofire.swift; sourceTree = "<group>"; };
 		CBD5915221A5D8CA1A7CF676CD72B025 /* TDServiceAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDServiceAPI-umbrella.h"; sourceTree = "<group>"; };
 		D0826DB0B5307332ED5892BD512A5551 /* TDServiceAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDServiceAPI.xcconfig; sourceTree = "<group>"; };
 		DF91B90B5713314DF76F510AD4ABBA9B /* Pods-TDServiceAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDServiceAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,9 +180,10 @@
 		9E124B57ABD5C1719E80BA02F2668E53 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				510907B8D2B4BB494A05F55D829EAA11 /* ReplaceMe.swift */,
+				CAC702F21FB1B4B4004AFB84 /* WebService.swift */,
+				CAC702F41FB1B79D004AFB84 /* WebServiceAble.swift */,
+				CAC702F61FB1BB19004AFB84 /* WSApiAlamofire.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -187,7 +192,6 @@
 			children = (
 				9E124B57ABD5C1719E80BA02F2668E53 /* Classes */,
 			);
-			name = TDServiceAPI;
 			path = TDServiceAPI;
 			sourceTree = "<group>";
 		};
@@ -313,7 +317,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231A73B2B6D8059FEE6718AEEDDDA118 /* ReplaceMe.swift in Sources */,
+				CAC702F71FB1BB19004AFB84 /* WSApiAlamofire.swift in Sources */,
+				CAC702F31FB1B4B4004AFB84 /* WebService.swift in Sources */,
+				CAC702F51FB1B79D004AFB84 /* WebServiceAble.swift in Sources */,
 				0429B6A1412D94A20338733F8B499EB0 /* TDServiceAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,7 +388,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -390,14 +398,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -411,6 +425,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -531,7 +546,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -539,15 +556,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
