@@ -7,20 +7,6 @@
 
 import Foundation
 
-public enum MethodType {
-    case GET
-    case POST
-    case PUT
-    case DELETE
-}
-
-public enum URLEncodingType{
-    case FORM
-    case QUERY
-    case JSONENCODING
-    case FileUpload
-}
-
 public protocol ApiResource {
     var url: String { get }
     func call()
@@ -51,7 +37,4 @@ struct Login{
     
 }
 
-class Abc{
-    
-}
 

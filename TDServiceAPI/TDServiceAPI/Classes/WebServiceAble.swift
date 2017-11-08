@@ -42,9 +42,12 @@ struct WebServiceConfiguratorClient: WebServiceConfigurator{
         let timeOut = self.dataSource?.requestTimeOut()
     }
 }
-
+public enum Result<T> {
+    case Success(T)
+    case Failure(Error)
+}
 public protocol WebServiceAPI{
-    func call(_ request: WebServiceRequest)
+    func call(_ request: WebServiceRequest,completionHandler: @escaping (Result<String>) -> Void )
 }
 
 public protocol WebServiceAble: class {
